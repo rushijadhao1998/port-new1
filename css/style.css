@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(to right, #ff6cab, #7366ff);
+}
+
+html, body{
+    height: 100%;
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 2px solid #9e9c9c;
+    border-radius: 50px;
+    background: transparent;
+    background: #939394;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .3);
+}
+
+
+.name {
+    color: #ffffff;
+    font-size: 1.7rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.navbar-links a {
+    margin: 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 3.5rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+}
+
+.navbar-links a:hover {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 3.5rem;
+    text-decoration: none;
+    color: #000000;
+    text-shadow: 0px 0px 20px rgb(255, 255, 255, 0.9);
+}
+
+
+
+/* SECTION START FROM HERE */
+
+
+.home{
+    
+    flex: auto;
+    display: flex;
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: #414142;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.name_1 {
+    padding: 30px 0 30px 0;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.btns{
+    padding: 30px 0 10px 0;
+}
+
+.btn_cv {
+    font-size: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid #000;
+    color: #000;
+    width: 130px;
+    height: 50px;
+    background: #fff;
+    font-weight: 600;
+    line-height: 1.1em;
+    margin: 10px;
+    transition: .5s;
+}
+
+.btn_cv:hover {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: .5s;
+}
+
+.btn_contact {
+    font-size: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid #fff;
+    width: 130px;
+    height: 50px;
+    background: #414142;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.1em;
+    margin: 10px;
+    transition: .5s;
+}
+
+.btn_contact:hover {
+    background: transparent;
+    color: #000;
+    border: 2px solid #000;
+    transition: .5s;
+}
+
+.home-sci {
+    margin-top: 20px;
+    margin-left: 15px;
+    justify-content: space-between;
+}
+
+.home-sci a {
+    margin: 7px;
+    text-decoration: none;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #000;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.home-sci a:hover {
+    color: #fff;
+    border: 2px solid #000;
+}
+
+.home-sci a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #000;
+    z-index: -1;
+    transition: .5s;
+}
+
+.home-sci a:hover::before {
+    width: 100%;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 800;
+    color: #000;
+}
+
+span {
+
+    color: #fff;
+}
+
+
+/* SECTION START FROM HERE */
+
+
+.home{
+    
+    flex: auto;
+    display: flex;
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* FOOTER START FROM HERE */
+
+.footer{
+    padding: 15px;
+    text-align: center;
+}
+
+.footer-text p {
+    font-size: 1rem;
+    color: #000;
+    font-weight: 400;
+}
+

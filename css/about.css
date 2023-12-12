@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(to right, #ff6cab, #7366ff);
+}
+
+html, body{
+    height: 100%;
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 2px solid #9e9c9c;
+    border-radius: 50px;
+    background: transparent;
+    background: #939394;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .3);
+}
+
+
+.name {
+    color: #ffffff;
+    font-size: 1.7rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.navbar-links a {
+    margin: 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 3.5rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+}
+
+.navbar-links a:hover {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 3.5rem;
+    text-decoration: none;
+    color: #000000;
+    text-shadow: 0px 0px 20px rgb(255, 255, 255, 0.9);
+}
+
+
+
+/* SECTION START FROM HERE */
+.about{
+    flex: auto;
+    display: flex;
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sec_about{
+    width: 55%;
+}
+
+
+.abt{
+    
+    color: #414142;
+    margin: 0;
+    padding: 0;
+}
+
+.abt_head{
+    border-radius: 50px;
+    background: #000;
+    color: #fff;
+    width: 55%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    margin: 20px 0 ;
+}
+
+.box{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: 25px 0;
+}
+
+
+.exp_box, .edu_box{
+    margin: 0;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    transition: .9s;
+}
+
+.exp_box:hover, .edu_box:hover{
+    border: 2px solid #000;
+    box-shadow: 0 0 10px #fff;
+    color: #414142;
+}
+
+.exp_box:hover:before, .edu_box:hover:before{
+    transition: .9s;
+}
+
+.bx{
+    font-size: 30px;
+}
+
+h3{
+    margin: 0;
+    padding: 10px;
+}
+
+h2{
+    font-size: 45px;
+    font-weight: 800;
+    color: #000;
+}
+
+span{
+    color: #fff;
+}
+
+
+
+
+/* FOOTER START FROM HERE */
+
+.footer{
+    padding: 15px;
+    text-align: center;
+}
+
+.footer-text p {
+    font-size: 1rem;
+    color: #000;
+    font-weight: 400;
+}
+
